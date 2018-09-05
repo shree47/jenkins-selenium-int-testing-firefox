@@ -39,17 +39,17 @@ public class GoogleStartPageTest {
 
 
 	@Test
-	/*public void pageBodyIsNotNull() throws MalformedURLException {
+	public void pageBodyIsNotNull() throws MalformedURLException {
 		String bodyText = driver.findElement(By.tagName("body")).getText();
 		assertTrue(bodyText != null);
-	}*/
-
-	public void textBoxuiAreaMatch() throws MalformedURLException {
-
-		//String testTextField = driver.findElement(By.id("testTextField")).getText();
-		//String testLabel = driver.findElement(By.id("testLabel")).getText();
-		
-		//assertTrue(testTextField!=testLabel);
-		
 	}
+
+	/*public void textBoxuiAreaMatch() throws MalformedURLException {
+
+		String testTextField = driver.findElement(By.id("testTextField")).getText();
+		String testLabel = driver.findElement(By.id("testLabel")).getText();
+		
+		assertTrue(testTextField!=testLabel);
+		
+	}*/
 }
